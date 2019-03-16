@@ -1,0 +1,21 @@
+# eclipse related
+.settings
+.project
+.classpath
+*.class
+.apt_generated
+.factorypath
+
+# Idea files
+.idea
+*.iml
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+#maven
+target
+reports
