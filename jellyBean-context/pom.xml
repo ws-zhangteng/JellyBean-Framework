@@ -19,7 +19,7 @@
         </dependency>
         <dependency>
             <groupId>org.JellyBeanFramework</groupId>
-            <artifactId>jellyBean-core</artifactId>
+            <artifactId>jellyBean-bean</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
