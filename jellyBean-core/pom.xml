@@ -11,4 +11,11 @@
 
     <artifactId>jellyBean-core</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm</artifactId>
+            <version>7.2</version>
+        </dependency>
+    </dependencies>
 </project>
