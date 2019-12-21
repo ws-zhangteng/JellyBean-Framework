@@ -4,11 +4,11 @@ package com.jellybeanframework.bean;
  * @author zhangteng
  * @date 2019年10月26日 21:07:08
  */
-public class BeanDefinition<T> {
+public class BeanDefinition {
     /**
      *
      */
-    Class<T> beanClass;
+    Class beanClass;
 
     /**
      * 名称
