@@ -1,6 +1,6 @@
 package com.jellybeanframework.context.annotation;
 
-import com.jellybeanframework.bean.annotation.Bean;
+import com.jellybeanframework.bean.annotation.Component;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

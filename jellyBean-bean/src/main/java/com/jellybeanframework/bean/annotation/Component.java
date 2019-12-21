@@ -1,4 +1,4 @@
-package com.jellybeanframework.context.annotation;
+package com.jellybeanframework.bean.annotation;
 
 /**
  * @author zhangteng

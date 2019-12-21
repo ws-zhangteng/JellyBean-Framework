@@ -1,4 +1,4 @@
-package com.jellybeanframework.core.annotation;
+package com.jellybeanframework.context.annotation;
 
 import java.lang.annotation.*;
 

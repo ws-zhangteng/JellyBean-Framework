@@ -1,6 +1,6 @@
 package com.jellybeanframework.context;
 
-import com.jellybeanframework.core.annotation.ComponentScan;
+import com.jellybeanframework.context.annotation.ComponentScan;
 
 import java.lang.annotation.Annotation;
 
