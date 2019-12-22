@@ -1,4 +1,6 @@
-package com.jellybeanframework.core.reflect;
+package com.jellybeanframework.core.annotation;
+
+import com.jellybeanframework.core.reflect.ClassMetaData;
 
 import java.lang.annotation.Annotation;
 import java.util.HashMap;
