@@ -9,7 +9,7 @@ import java.util.Map;
  * @author creatation
  * @date 2019年12月8日 21:21:56
  */
-public interface AnnotationMetaData {
+public interface AnnotationMetaData extends ClassMetaData {
 
     /**
      * 获取全部属性

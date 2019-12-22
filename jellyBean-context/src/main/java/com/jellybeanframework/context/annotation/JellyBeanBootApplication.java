@@ -6,4 +6,9 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 public @interface JellyBeanBootApplication {
+    /**
+     * 默认包扫描路径
+     * @return
+     */
+    String[] basePackages();
 }

@@ -1,5 +1,9 @@
 package com.jellybeanframework.core.utils;
 
+import com.jellybeanframework.core.lang.Nullable;
+
+import java.util.function.Supplier;
+
 /**
  * 断言工具类
  * @author zhangteng
@@ -28,5 +32,23 @@ public abstract class AssertUtil {
             throw new IllegalArgumentException(String.format(describe, object.toString()));
         }
     }
+
+    public static void isTrue(boolean expression, String message) {
+        if (!expression) {
+            throw new IllegalArgumentException(message);
+        }
+    }
+
+    public static void isTrue(boolean expression, Supplier<String> messageSupplier) {
+        if (!expression) {
+            throw new IllegalArgumentException(nullSafeGet(messageSupplier));
+        }
+    }
+
+    @Nullable
+    private static String nullSafeGet(@Nullable Supplier<String> messageSupplier) {
+        return (messageSupplier != null ? messageSupplier.get() : null);
+    }
+
 
 }
