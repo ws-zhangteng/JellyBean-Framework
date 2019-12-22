@@ -1,7 +1,5 @@
 package com.jellybeanframework.core.reflect;
 
-import com.jellybeanframework.core.annotation.AnnotationMetaData;
-
 /**
  * 类信息读取
  * @author creatation
