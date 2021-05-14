@@ -9,6 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <description>core context for jellybean</description>
+
     <artifactId>jellyBean-context</artifactId>
 
     <dependencies>

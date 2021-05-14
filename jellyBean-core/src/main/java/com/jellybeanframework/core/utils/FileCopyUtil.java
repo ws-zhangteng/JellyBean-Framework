@@ -75,7 +75,7 @@ public abstract class FileCopyUtil {
             try {
                 out.close();
             }
-            catch (IOException ex) {
+            catch (IOException ignored) {
             }
         }
     }
